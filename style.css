@@ -1,0 +1,29 @@
+.container{
+  display:flex;
+  flex-direction: column;
+  width:400px;
+  /* centrar vertical y horizontalmente */
+position: absolute;
+top: 40%;
+left: 40%;
+
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  
+  padding: 20px;
+ 
+}
+
+
+#resultado{
+  display:flex;
+  flex-direction: row;
+
+
+}
+
+#imc{
+  display:flex;
+  flex-direction: row;
+}
